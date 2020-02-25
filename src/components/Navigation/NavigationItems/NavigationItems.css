@@ -1,0 +1,15 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;                                                                   /*   else, we could use only display: block AND display
+                                                                                                            */
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        display: flex
+    }
+} 
